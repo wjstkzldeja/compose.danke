@@ -23,7 +23,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.example.composedanke.factory.ViewModelFactory
-import com.example.composedanke.ui.nav.NavFragment
+import com.example.composedanke.nav.NavFragment
 import com.example.composedanke.ui.theme.ComposeDankeTheme
 
 class MainActivity : ComponentActivity() {

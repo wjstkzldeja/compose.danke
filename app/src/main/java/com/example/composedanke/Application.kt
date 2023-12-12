@@ -16,7 +16,9 @@
 package com.example.composedanke
 
 import android.app.Application
+import android.util.Log
 import com.example.composedanke.factory.ViewModelFactory
+import com.example.composedanke.log.initTimber
 
 /**
  * Provides since repository for watch devices.
@@ -27,6 +29,7 @@ class Application : Application() {
 
     override fun onCreate() {
         super.onCreate()
+        initTimber()
     }
 
 //    val repository by lazy { Repository() }

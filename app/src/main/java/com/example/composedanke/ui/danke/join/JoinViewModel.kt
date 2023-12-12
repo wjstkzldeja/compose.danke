@@ -1,4 +1,4 @@
-package com.example.composedanke.ui.join
+package com.example.composedanke.ui.danke.join
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

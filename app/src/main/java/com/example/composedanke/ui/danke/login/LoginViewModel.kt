@@ -1,4 +1,4 @@
-package com.example.composedanke.ui.login
+package com.example.composedanke.ui.danke.login
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

@@ -1,4 +1,4 @@
-package com.example.composedanke.ui.today
+package com.example.composedanke.ui.danke.today
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

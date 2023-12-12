@@ -1,4 +1,4 @@
-package com.example.composedanke.ui.today
+package com.example.composedanke.ui.danke.today
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -8,9 +8,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.navigation.NavHostController
-import com.example.composedanke.ui.join.JoinViewModel
-import com.example.composedanke.ui.login.Test
 
 @Composable
 fun TodayScreen(
@@ -22,6 +19,6 @@ fun TodayScreen(
             .fillMaxSize(),
         verticalArrangement = Arrangement.Center,
     ) {
-        Text("Login Screen")
+        Text("Today Screen")
     }
 }

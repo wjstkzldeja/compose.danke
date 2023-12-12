@@ -1,4 +1,4 @@
-package com.example.composedanke.ui.join
+package com.example.composedanke.ui.clicktest
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -18,15 +18,16 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.composedanke.ui.nav.obsTest
+import com.example.composedanke.nav.obsTest
 import com.example.composedanke.ui.theme.ComposeDankeTheme
 
-var viewModelT = JoinViewModel()
+var viewModelT = ClickTwoViewModel()
 
 @Composable
-internal fun JoinScreen(
-    viewModel: JoinViewModel,
+internal fun ClickTwoScreen(
+    viewModel: ClickTwoViewModel,
     onClickOne: () -> Unit,
+    onThreeClick: () -> Unit,
 ) {
     viewModelT = viewModel
     val obsTest: String by obsTest.observeAsState("옵저버 대기")
@@ -42,6 +43,7 @@ internal fun JoinScreen(
         OnClickTestOne(count)
         OnClickTestTwo(onClickOne, obsTest)
         OnClickTestThree(viewModel, viewModelText)
+        OnThreeScreen(onThreeClick)
 //        OnClickTestFour(navControl)
     }
 }
@@ -63,10 +65,17 @@ fun OnClickTestTwo(onClickOne: () -> Unit, obsTest: String) {
 }
 
 @Composable
-fun OnClickTestThree(viewModel: JoinViewModel, viewModelText: String) {
+fun OnClickTestThree(viewModel: ClickTwoViewModel, viewModelText: String) {
     Column(modifier = Modifier.padding(bottom = (30).dp)) {
         Text(text = "click_3", modifier = Modifier.clickable { viewModelT.setText("asdasd") })
         Text(text = viewModelText)
+    }
+}
+
+@Composable
+fun OnThreeScreen(onThreeClick: () -> Unit) {
+    Column(modifier = Modifier.padding(bottom = (30).dp)) {
+        Text(text = "click_4", modifier = Modifier.clickable { onThreeClick() })
     }
 }
 
@@ -77,11 +86,11 @@ fun OnClickTestFour(navControl: NavHostController) {
 
 @Preview(showBackground = true)
 @Composable
-fun DefaultPreview() {
+fun DefaultPreviewClickTwo() {
     ComposeDankeTheme {
-        val viewModel: JoinViewModel = viewModel(
-            factory = JoinViewModel.Factory
+        val viewModel: ClickTwoViewModel = viewModel(
+            factory = ClickTwoViewModel.Factory
         )
-        JoinScreen(viewModel = viewModel, onClickOne = {})
+        ClickTwoScreen(viewModel = viewModel, onClickOne = {},onThreeClick = {})
     }
 }

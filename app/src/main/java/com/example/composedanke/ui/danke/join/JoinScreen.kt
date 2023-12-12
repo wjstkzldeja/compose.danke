@@ -1,7 +1,6 @@
-package com.example.composedanke.ui.login
+package com.example.composedanke.ui.danke.join
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -13,10 +12,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.composedanke.ui.theme.ComposeDankeTheme
 
+
 @Composable
-fun LoginScreen(
-    viewModel: LoginViewModel,
-    onClick: () -> Unit
+internal fun JoinScreen(
+    viewModel: JoinViewModel,
+    onClickOne: () -> Unit,
 ) {
     Column(
         modifier = Modifier
@@ -24,23 +24,17 @@ fun LoginScreen(
             .fillMaxSize(),
         verticalArrangement = Arrangement.Center,
     ) {
-        Test("Login Screen", onClick)
+        Text("Join Screen")
     }
-}
-
-@Composable
-fun Test(name: String, onClick: () -> Unit) {
-    Text(text = "Hello $name!", modifier = Modifier.clickable { onClick() })
 }
 
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     ComposeDankeTheme {
-        val viewModel: LoginViewModel = viewModel(
-            factory = LoginViewModel.Factory
+        val viewModel: JoinViewModel = viewModel(
+            factory = JoinViewModel.Factory
         )
-//        Test("test",onClick = { }, )
-        LoginScreen(viewModel = viewModel, onClick = {})
+        JoinScreen(viewModel = viewModel, onClickOne = {})
     }
 }
