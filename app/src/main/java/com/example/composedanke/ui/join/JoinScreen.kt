@@ -15,16 +15,17 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.navigation.NavHostController
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.composedanke.ui.nav.obsTest
+import com.example.composedanke.ui.theme.ComposeDankeTheme
 
 var viewModelT = JoinViewModel()
 
 @Composable
 internal fun JoinScreen(
     viewModel: JoinViewModel,
-    navControl: NavHostController,
     onClickOne: () -> Unit,
 ) {
     viewModelT = viewModel
@@ -41,7 +42,7 @@ internal fun JoinScreen(
         OnClickTestOne(count)
         OnClickTestTwo(onClickOne, obsTest)
         OnClickTestThree(viewModel, viewModelText)
-        OnClickTestFour(navControl)
+//        OnClickTestFour(navControl)
     }
 }
 
@@ -69,12 +70,11 @@ fun OnClickTestThree(viewModel: JoinViewModel, viewModelText: String) {
     }
 }
 
-@Composable
+/*@Composable
 fun OnClickTestFour(navControl: NavHostController) {
     Text(text = "onBackPressed", modifier = Modifier.clickable { navControl.popBackStack() })
-}
+}*/
 
-/*
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
@@ -82,7 +82,6 @@ fun DefaultPreview() {
         val viewModel: JoinViewModel = viewModel(
             factory = JoinViewModel.Factory
         )
-//        Test("test",onClick = { }, )
-        JoinScreen(viewModel = viewModel, onClick = {})
+        JoinScreen(viewModel = viewModel, onClickOne = {})
     }
-}*/
+}

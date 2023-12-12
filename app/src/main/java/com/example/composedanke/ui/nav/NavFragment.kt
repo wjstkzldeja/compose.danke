@@ -20,12 +20,20 @@ import com.example.composedanke.ui.today.TodayViewModel
 private val _obsTest = MutableLiveData<String>("")
 val obsTest: LiveData<String> = _obsTest
 
+/**
+ * 간단한 튜토리얼 블로그 : https://yoon-dailylife.tistory.com/127
+ * 네비 블로그 1 : https://whyprogrammer.tistory.com/652
+ * 네비 블로그 2 : https://jinhyun.blog/android/jetpack-compose/navigation/
+ * */
 @Composable
 fun NavFragment(
     navController: NavHostController = rememberNavController()
 ) {
     ComposeDankeTheme {
-        NavHost(navController = navController, startDestination = Screen.LoginScreen.route) {
+        NavHost(
+            navController = navController,
+            startDestination = Screen.LoginScreen.route
+        ) {
             composable(Screen.LoginScreen.route) {
                 val viewModel: LoginViewModel = viewModel(
                     factory = LoginViewModel.Factory
@@ -33,9 +41,10 @@ fun NavFragment(
                 LoginScreen(
                     viewModel,
                     onClick = {
-                        navController.navigate(route = Screen.JoinScreen.route)
+                        navController.navigateSingleTopTo(route = Screen.JoinScreen.route)
                     })
             }
+            /** navController 직접 전달은 권장하지 않음*/
             composable(Screen.JoinScreen.route) {
                 val viewModel: JoinViewModel = viewModel(
                     factory = JoinViewModel.Factory
@@ -43,10 +52,10 @@ fun NavFragment(
                 _obsTest.value = "옵저버 전달 초기화"
                 JoinScreen(
                     viewModel,
-                    navController,
                     onClickOne = {
                         _obsTest.value = "옵저버 전달"
-                        navController.navigate(route = Screen.TodayScreen.route)
+                        navController.navigateSingleTopTo(route = Screen.TodayScreen.route)
+                        navController.popBackStack()
                     },
                 )
             }
@@ -62,3 +71,7 @@ fun NavFragment(
         }
     }
 }
+
+/** 네비게이션 중복 클릭 방지*/
+fun NavHostController.navigateSingleTopTo(route: String) =
+    this.navigate(route) { launchSingleTop = true }
