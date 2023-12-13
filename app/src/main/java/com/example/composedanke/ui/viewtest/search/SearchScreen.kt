@@ -1,6 +1,4 @@
-@file:OptIn(ExperimentalMaterial3Api::class)
-
-package com.example.composedanke.ui.viewtest
+package com.example.composedanke.ui.viewtest.search
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -39,11 +37,11 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.composedanke.ui.theme.ComposeDankeTheme
 import timber.log.Timber.Forest.d
 
-var mViewModel = SearchViewModel()
+private var mViewModel = SearchViewModel()
 
 @Composable
 fun SearchScreen(
-    viewModel: SearchViewModel,
+    viewModel: SearchViewModel = viewModel(),
     onNextView: () -> Unit,
 ) {
     mViewModel = viewModel
@@ -98,25 +96,6 @@ fun ImageListColumn() {
 }
 
 @Composable
-fun ImageListGrid() {
-    LazyHorizontalGrid(
-        rows = GridCells.Fixed(2),
-        contentPadding = PaddingValues(horizontal = 16.dp),
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp),
-        modifier = Modifier
-            .height(350.dp)
-            .padding(top = 56.dp)
-    ) {
-        itemsIndexed(
-            mViewModel.searchList.value
-        ) { index, item ->
-            ImageItem(index, item)
-        }
-    }
-}
-
-@Composable
 fun ImageItem(
     index: Int,
     item: String
@@ -139,7 +118,7 @@ fun ImageItem(
 
 @Preview(showBackground = true)
 @Composable
-fun DefaultPreview() {
+private fun DefaultPreview() {
     ComposeDankeTheme {
         val viewModel: SearchViewModel = viewModel(
             factory = SearchViewModel.Factory

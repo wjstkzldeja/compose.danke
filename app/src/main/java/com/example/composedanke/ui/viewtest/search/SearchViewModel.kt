@@ -1,15 +1,13 @@
-package com.example.composedanke.ui.viewtest
+package com.example.composedanke.ui.viewtest.search
 
 import androidx.compose.runtime.State
-import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.snapshots.SnapshotStateList
+import androidx.compose.runtime.toMutableStateList
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import timber.log.Timber
 import timber.log.Timber.Forest.d
 
 class SearchViewModel : ViewModel() {
@@ -25,6 +23,9 @@ class SearchViewModel : ViewModel() {
 
     private val _searchList = mutableStateOf<List<String>>(arrayListOf("1", "2", "3", "4"))
     val searchList: State<List<String>> = _searchList
+
+//    private val _searchList = arrayListOf("1", "2", "3", "4").toMutableStateList()
+//    val searchList: List<String> get() = _searchList
 
     companion object {
         val Factory = viewModelFactory {

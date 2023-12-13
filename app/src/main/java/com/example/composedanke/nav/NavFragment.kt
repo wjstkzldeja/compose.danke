@@ -3,15 +3,15 @@ package com.example.composedanke.nav
 import androidx.compose.runtime.Composable
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.composedanke.route.Screen
 import com.example.composedanke.ui.theme.ComposeDankeTheme
-import com.example.composedanke.ui.viewtest.SearchScreen
-import com.example.composedanke.ui.viewtest.SearchViewModel
+import com.example.composedanke.ui.viewtest.lazy.LazyScreen
+import com.example.composedanke.ui.viewtest.search.SearchScreen
+import com.example.composedanke.ui.viewtest.wellness.WellnessScreen
 
 private val _obsTest = MutableLiveData<String>("")
 val obsTest: LiveData<String> = _obsTest
@@ -37,7 +37,6 @@ fun NavFragment(
 //                    factory = ClickOneViewModel.Factory
 //                )
 //                ClickOneScreen(
-//                    viewModel,
 //                    onClick = {
 //                        navController.navigateSingleTopTo(route = Screen.ClickTwoScreen.route)
 //                    })
@@ -49,10 +48,8 @@ fun NavFragment(
 //                )
 //                _obsTest.value = "옵저버 전달 초기화"
 //                ClickTwoScreen(
-//                    viewModel,
 //                    onClickOne = {
 //                        _obsTest.value = "옵저버 전달"
-//                        navController.navigateSingleTopTo(route = Screen.ClickThreeScreen.route)
 //                    },
 //                    onThreeClick = {
 //                        navController.navigateSingleTopTo(route = Screen.ClickThreeScreen.route)
@@ -65,7 +62,6 @@ fun NavFragment(
 //                    factory = ClickThreeViewModel.Factory
 //                )
 //                ClickThreeScreen(
-//                    viewModel,
 //                )
 //            }
 //        }
@@ -75,16 +71,17 @@ fun NavFragment(
     ComposeDankeTheme {
         NavHost(
             navController = navController,
-            startDestination = Screen.SearchScreen.route
+            startDestination = Screen.LazyScreen.route
         ) {
             composable(Screen.SearchScreen.route) {
-                val viewModel: SearchViewModel = viewModel(
-                    factory = SearchViewModel.Factory
-                )
                 SearchScreen(
-                    viewModel,
-                    onNextView = {
-                    })
+                    onNextView = {})
+            }
+            composable(Screen.WellnessScreen.route) {
+                WellnessScreen()
+            }
+            composable(Screen.LazyScreen.route) {
+                LazyScreen()
             }
         }
     }

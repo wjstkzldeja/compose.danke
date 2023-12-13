@@ -15,7 +15,7 @@ import com.example.composedanke.ui.theme.ComposeDankeTheme
 
 @Composable
 fun ClickOneScreen(
-    viewModel: ClickOneViewModel,
+    viewModel: ClickOneViewModel = viewModel(),
     onClick: () -> Unit
 ) {
     Column(

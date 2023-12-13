@@ -25,7 +25,7 @@ var viewModelT = ClickTwoViewModel()
 
 @Composable
 internal fun ClickTwoScreen(
-    viewModel: ClickTwoViewModel,
+    viewModel: ClickTwoViewModel =viewModel(),
     onClickOne: () -> Unit,
     onThreeClick: () -> Unit,
 ) {

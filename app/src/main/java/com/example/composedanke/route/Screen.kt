@@ -13,6 +13,8 @@ sealed class Screen(
 
     /** 화면 테스트*/
     object SearchScreen : Screen("searchScreen")
+    object LazyScreen : Screen("lazyScreen")
+    object WellnessScreen : Screen("wellnessScreen")
 
     /** 당케 테스트*/
     object LoginScreen : Screen("loginScreen")
