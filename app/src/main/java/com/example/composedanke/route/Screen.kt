@@ -6,6 +6,9 @@ package com.example.composedanke.route
 sealed class Screen(
     val route: String
 ) {
+    /** 홈 화면*/
+    object HomeScreen : Screen("homeScreen")
+
     /** 클릭 테스트*/
     object ClickOneScreen : Screen("clickOneScreen")
     object ClickTwoScreen : Screen("clickTwoScreen")

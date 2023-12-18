@@ -6,6 +6,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
@@ -16,7 +17,9 @@ import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyHorizontalGrid
 import androidx.compose.foundation.lazy.grid.itemsIndexed
 import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -35,6 +38,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.composedanke.ui.theme.ComposeDankeTheme
+import com.example.composedanke.ui.viewtest.lazy.ColumnExample
+import com.example.composedanke.ui.viewtest.lazy.LazyColumnView
+import com.example.composedanke.ui.viewtest.lazy.LazyGridView
+import com.example.composedanke.ui.viewtest.lazy.LazyRowView
+import com.example.composedanke.ui.viewtest.lazy.RowExample
 import timber.log.Timber.Forest.d
 
 private var mViewModel = SearchViewModel()
@@ -45,8 +53,11 @@ fun SearchScreen(
     onNextView: () -> Unit,
 ) {
     mViewModel = viewModel
-    SearchBar()
-    ImageListColumn()
+    Column(modifier = Modifier.verticalScroll(rememberScrollState())) {
+        SearchBar()
+        ImageListColumn()
+    }
+
 //    ImageListGrid()
 }
 
@@ -84,8 +95,8 @@ fun SearchBar(modifier: Modifier = Modifier) {
 fun ImageListColumn() {
     LazyColumn(
         modifier = Modifier
-            .fillMaxWidth()
-            .padding(top = 56.dp)
+            .height(300.dp)
+
     ) {
         itemsIndexed(
             mViewModel.searchList.value

@@ -53,10 +53,15 @@ fun LazyScreen(
 ) {
     mViewModel = viewModel
     Column(modifier = Modifier.verticalScroll(rememberScrollState())) {
+        Text(text = "LazyRowView")
         LazyRowView()
+        Text(text = "LazyColumnView")
         LazyColumnView()
+        Text(text = "LazyGridView")
         LazyGridView()
+        Text(text = "RowExample")
         RowExample()
+        Text(text = "ColumnExample")
         ColumnExample()
         Spacer(Modifier.height(16.dp))
     }
