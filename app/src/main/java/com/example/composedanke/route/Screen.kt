@@ -23,4 +23,7 @@ sealed class Screen(
     object LoginScreen : Screen("loginScreen")
     object JoinScreen : Screen("joinScreen")
     object TodayScreen : Screen("todayScreen")
+
+    /** ksh album*/
+    object KshAlbumScreen : Screen("kshAlbumScreen")
 }

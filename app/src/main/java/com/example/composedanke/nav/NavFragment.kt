@@ -8,6 +8,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.composedanke.MainViewModel
 import com.example.composedanke.route.Screen
 import com.example.composedanke.ui.clicktest.ClickOneScreen
 import com.example.composedanke.ui.clicktest.ClickOneViewModel
@@ -23,6 +24,7 @@ import com.example.composedanke.ui.danke.today.TodayScreen
 import com.example.composedanke.ui.danke.today.TodayViewModel
 import com.example.composedanke.ui.theme.ComposeDankeTheme
 import com.example.composedanke.ui.viewtest.home.HomeScreen
+import com.example.composedanke.ui.viewtest.ksh.KshAlbumScreen
 import com.example.composedanke.ui.viewtest.lazy.LazyScreen
 import com.example.composedanke.ui.viewtest.search.SearchScreen
 import com.example.composedanke.ui.viewtest.wellness.WellnessScreen
@@ -38,6 +40,7 @@ val obsTest: LiveData<String> = _obsTest
  * */
 @Composable
 fun NavFragment(
+    mainViewModel: MainViewModel,
     navController: NavHostController = rememberNavController()
 ) {
     /** home*/
@@ -53,12 +56,12 @@ fun NavFragment(
                     onClickLazyView = { navController.navigateSingleTopTo(route = Screen.LazyScreen.route) },
                     onClickOneView = { navController.navigateSingleTopTo(route = Screen.ClickOneScreen.route) },
                     onClickDankeView = { navController.navigateSingleTopTo(route = Screen.LoginScreen.route) },
+                    onClickKshAlbumView = { navController.navigateSingleTopTo(route = Screen.KshAlbumScreen.route) },
                 )
             }
             /** 검색 screen @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
             composable(Screen.SearchScreen.route) {
-                SearchScreen(
-                    onNextView = {})
+                SearchScreen(mainViewModel.getProjectList())
             }
             /** 리스트뷰 테스트 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
             composable(Screen.WellnessScreen.route) {
@@ -109,7 +112,7 @@ fun NavFragment(
                     onClick = {
                     })
             }
-            /** navController 직접 전달은 권장하지 않음*/
+            /* navController 직접 전달은 권장하지 않음*/
             composable(Screen.JoinScreen.route) {
                 val viewModel: JoinViewModel = viewModel(
                     factory = JoinViewModel.Factory
@@ -129,6 +132,10 @@ fun NavFragment(
                 TodayScreen(
                     viewModel,
                 )
+            }
+            /** ksh album screen @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+            composable(Screen.KshAlbumScreen.route) {
+                KshAlbumScreen()
             }
         }
     }

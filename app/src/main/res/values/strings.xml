@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">composeDanke</string>
+    <string name="app_name">compose test project</string>
     <string name="test">test</string>
+
+    <string name="content_1">당신만을 위한 일상건강 케어</string>
+    <string name="content_2">내 기록을 공유하고 함께 소통하면서목표 달성에 힘을 얻어요</string>
 </resources>

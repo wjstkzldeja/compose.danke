@@ -1,0 +1,233 @@
+[
+  {
+    "project": "Home Network System UXUI",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "MOTION",
+      "KD Kavien",
+      "경동 나비엔",
+      "tablet",
+      "타블렛",
+      "mobile",
+      "모바일",
+      "경동나비엔 홈네트워크 시스템 신규 UX/IU 디자인 개발은 아파트 브랜드에 내장되는 월패드, 로비폰 리뉴얼 작업으로써, 단순한 기능의 역할만이 아닌, 하나의 옵브제가 되어 인테리어와 어우러질 수 있도록 진행한 프로젝트입니다."
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0013.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0014.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0015.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0016.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0017.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0018.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0019.jpeg"
+    ]
+  },
+  {
+    "project": "Multi Device Experience",
+    "tags": [
+      "UI",
+      "GUI",
+      "MOTION",
+      "DEV",
+      "Samsung",
+      "삼성",
+      "MDE",
+      "smartthings",
+      "스마트싱즈",
+      "스마트씽즈",
+      "android",
+      "안드로이드",
+      "mobile",
+      "모바일",
+      "프로토타입",
+      "prototype",
+      "삼성 SmarThings의 다양한 기능과 기기간 연결을 선행으로 테스트하고 Prototype App개발을 진행함. 시나리오 수립부터 전반적인 디자인 작업 및 가이드, 모션 제작"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0020.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0021.jpeg"
+    ]
+  },
+  {
+    "project": "SMARTTHINGS B2B ver.",
+    "tags": [
+      "GUI",
+      "Samsung",
+      "삼성",
+      "mobile",
+      "모바일",
+      "삼성 B2B SMARTTHINGS프로젝트로서 국내외 대형 건설사에 들어가는 삼성제품 및 가전기기를 모바일로 제어 할 수 있는 B2B전용 어플리케이션"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0022.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0023.jpeg"
+    ]
+  },
+  {
+    "project": "HOME MOBILE SERVICE APPLICATION",
+    "tags": [
+      "GUI",
+      "VI",
+      "Samsung",
+      "삼성",
+      "petcare",
+      "clothing",
+      "kitchen",
+      "팻케어 / 플로딩 케어 / 키친 케어 등 삼성에서 전략적으로 준비하고 있는 3개의 메인 서비스 디자인 진행"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0024.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0025.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0026.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0027.jpeg"
+    ]
+  },
+  {
+    "project": "HIMATE",
+    "tags": [
+      "UI",
+      "GUI",
+      "MOVIE",
+      "DEV",
+      "HYUNDAI CONSTRUCTION EQUIPMENT",
+      "현대건설기계",
+      "HCE",
+      "Android",
+      "안드로이드",
+      "Kotlin",
+      "iOS",
+      "Swift",
+      "RxSwift",
+      "Mobile",
+      "모바일",
+      "Prototype",
+      "프로토타입",
+      "운영",
+      "차트",
+      "Chart",
+      "구글맵",
+      "지도",
+      "Map",
+      "front-end",
+      "FE",
+      "back-end",
+      "BE",
+      "aws",
+      "Spring boot",
+      "Pure js",
+      "Publishing",
+      "하이메이트",
+      "현대건설기계 중장비 기기 관리앱으로서 중장비 기기를 가진 업체들이 해당앱을 통해 각 장비들의 상태를 확인하고 관리하는 어플리케이션"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0028.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0029.jpeg"
+    ]
+  },
+  {
+    "project": "우리은행 WON하는 LCK",
+    "tags": [
+      "GUI",
+      "DEV",
+      "WOORI BANK",
+      "우리은행",
+      "LCK",
+      "상주",
+      "웹앱",
+      "android",
+      "안드로이드",
+      "iOS",
+      "front-end",
+      "FE",
+      "react.js",
+      "aws",
+      "node.js",
+      "우리은행 WON 뱅킹에 들어가는 LCK전용 이벤트 페이지 디자인 및 구축"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0030.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0031.jpeg"
+    ]
+  },
+  {
+    "project": "NEWSROOM WEBSITE RENEWAL",
+    "tags": [
+      "UI",
+      "UX",
+      "GUI",
+      "DEV",
+      "HYUNDAI CARD & CAPITAL",
+      "현대카드 &  현대캐피탈",
+      "contents",
+      "컨텐츠",
+      "상주",
+      "publishing",
+      "퍼블리싱",
+      "front-end",
+      "FE",
+      "SEO",
+      "현대카드 현대캐피탈의 보도자료 및 트랜드 인사이트, 업계 소식 기업 문학 등을 홍보하는 미디어 채널 웹 사이트"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0032.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0033.jpeg"
+    ]
+  },
+  {
+    "project": "the RED CARD MOBILE MAGAZIN",
+    "tags": [
+      "UI",
+      "UX",
+      "GUI",
+      "DEV",
+      "HYUNDAI CARD",
+      "현대카드",
+      "contents",
+      "컨텐츠",
+      "상주",
+      "publishing",
+      "퍼블리싱",
+      "SEO",
+      "단일 이미지가 아닌 컨텐츠의 다양화 및 DIVE, 유튜브의 정보 인계 강화로 the Red Persona에 맞는 디지털 컨텐츠 모바일 소식지 구축"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0034.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0035.jpeg"
+    ]
+  },
+  {
+    "project": "Consumer Portal WEB",
+    "tags": [
+      "GUI",
+      "DEV",
+      "HYUNDAI COMMERCIAL",
+      "publishing",
+      "퍼블리싱",
+      "현대커머셜 사이트에 기존 디자인 가이드라인을 유지하며  소비자포털 콘텐츠 구죽"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0036.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0037.jpeg"
+    ]
+  },
+  {
+    "project": "에스원 인재개발원",
+    "tags": [
+      "UI",
+      "GUI",
+      "DEV",
+      "에스원",
+      "삼성",
+      "publishing",
+      "퍼블리싱",
+      "에스원 인재개발원 웹  모바일웹 사이트 구축 <2018년 3월 19일 오픈>"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0038.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0039.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0040.jpeg"
+    ]
+  }
+]

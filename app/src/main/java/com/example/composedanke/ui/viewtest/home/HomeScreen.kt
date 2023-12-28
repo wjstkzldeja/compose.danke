@@ -15,6 +15,7 @@ import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Create
 import androidx.compose.material.icons.filled.List
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.filled.ThumbUp
 import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
@@ -37,6 +38,7 @@ fun HomeScreen(
     onClickLazyView: () -> Unit,
     onClickOneView: () -> Unit,
     onClickDankeView: () -> Unit,
+    onClickKshAlbumView: () -> Unit
 ) {
     Column(
         modifier = Modifier
@@ -44,6 +46,7 @@ fun HomeScreen(
             .padding(start = 10.dp, top = 10.dp)
     ) {
         /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+        //contentPadding 기본 여백 제거
         Button(
             onClick = { onClickSearchView() },
             modifier = Modifier.wrapContentSize(),
@@ -109,6 +112,19 @@ fun HomeScreen(
             Spacer(modifier = Modifier.width(10.dp))
             Text(text = "당케 테스트 화면")
         }
+
+        Button(
+            onClick = { onClickKshAlbumView() },
+            modifier = Modifier.wrapContentSize(),
+            shape = RoundedCornerShape(0.dp),
+            border = BorderStroke(
+                1.dp, Color.Black
+            )
+        ) {
+            Icon(imageVector = Icons.Default.Star, contentDescription = null)
+            Spacer(modifier = Modifier.width(10.dp))
+            Text(text = "ksh album")
+        }
     }
 }
 
@@ -126,6 +142,7 @@ private fun DefaultPreview() {
             onClickWellnessView = {},
             onClickLazyView = {},
             onClickOneView = {},
-            onClickDankeView = {})
+            onClickDankeView = {},
+            onClickKshAlbumView = {})
     }
 }
