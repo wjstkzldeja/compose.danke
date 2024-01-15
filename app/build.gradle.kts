@@ -74,4 +74,8 @@ dependencies {
     implementation( "com.google.code.gson:gson:2.9.1")
     implementation( "com.airbnb.android:lottie-compose:6.2.0")
     implementation( "com.google.accompanist:accompanist-pager-indicators:0.32.0")
+
+    implementation("com.github.bumptech.glide:compose:1.0.0-alpha.1")
+
+    implementation ("com.chargemap.compose:numberpicker:1.0.3")
 }

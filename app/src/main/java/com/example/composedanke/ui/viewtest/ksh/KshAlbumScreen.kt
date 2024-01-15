@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
@@ -35,6 +36,7 @@ import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.blur
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.paint
 import androidx.compose.ui.graphics.Brush
@@ -93,14 +95,17 @@ fun KshAlbumScreen(
     mViewModel.initProjectList()
     val bgImg =
         arrayListOf<Int>(R.drawable.album_moon, R.drawable.album_star).random()
-    Column(
+    Image(
         modifier = Modifier
-            .background(color = colorResource(id = R.color.color_070318))
-            .paint(
-                painterResource(id = bgImg),
-                contentScale = ContentScale.Crop,
-                alpha = 0.7f
-            )
+            .fillMaxSize()
+            .blur(radiusX = 10.dp, radiusY = 10.dp)
+            .background(color = colorResource(id = R.color.color_070318)),
+        painter = painterResource(id = bgImg),
+        contentDescription = "",
+        contentScale = ContentScale.Crop,
+        alpha = 0.8f,
+    )
+    Column(
     ) {
         Text(
             modifier = Modifier.padding(top = 15.dp, bottom = 10.dp, start = 10.dp),

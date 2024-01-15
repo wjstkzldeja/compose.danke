@@ -79,7 +79,7 @@ class SearchViewModel : ViewModel() {
 
     /** image size 비트맵으로 변환
      * 비율은 좀더 계산이 필요*/
-     fun calculateInSampleSize(imageBitmap: ImageBitmap): ImageBitmap {
+     fun calculateInSampleSize(imageBitmap: ImageBitmap): Bitmap {
          d("logTestBitmap : ${imageBitmap.width}")
          d("logTestBitmap : ${imageBitmap.height}")
          val width = (imageBitmap.width * 0.4).toInt()
@@ -90,11 +90,11 @@ class SearchViewModel : ViewModel() {
 
          val resizedBitmap = Bitmap.createScaledBitmap(
              imageBitmap.asAndroidBitmap() , width, height, true
-         ).asImageBitmap()
+         )
          return resizedBitmap
     }
 
-    fun calculateInSampleSizeImageList(imageBitmap: ImageBitmap): ImageBitmap {
+    fun calculateInSampleSizeImageList(imageBitmap: ImageBitmap): Bitmap {
         d("logTestBitmap : ${imageBitmap.width}")
         d("logTestBitmap : ${imageBitmap.height}")
         val width = (imageBitmap.width * 0.2).toInt()
@@ -105,7 +105,7 @@ class SearchViewModel : ViewModel() {
 
         val resizedBitmap = Bitmap.createScaledBitmap(
             imageBitmap.asAndroidBitmap() , width, height, false
-        ).asImageBitmap()
+        )
         return resizedBitmap
     }
 }

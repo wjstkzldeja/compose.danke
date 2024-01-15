@@ -47,6 +47,7 @@ fun NavFragment(
     ComposeDankeTheme {
         NavHost(
             navController = navController,
+//            startDestination = Screen.JoinScreen.route
             startDestination = Screen.HomeScreen.route
         ) {
             composable(Screen.HomeScreen.route) {
@@ -109,7 +110,8 @@ fun NavFragment(
                 )
                 LoginScreen(
                     viewModel,
-                    onClick = {
+                    onJoinView = {
+                        navController.navigateSingleTopTo(route = Screen.JoinScreen.route)
                     })
             }
             /* navController 직접 전달은 권장하지 않음*/
@@ -120,7 +122,7 @@ fun NavFragment(
                 _obsTest.value = "옵저버 전달 초기화"
                 JoinScreen(
                     viewModel,
-                    onClickOne = {
+                    onClickToday = {
                     },
                 )
             }
