@@ -229,5 +229,1515 @@
       "assets/imgs/olivestonelab_portfolio_211224_0039.jpeg",
       "assets/imgs/olivestonelab_portfolio_211224_0040.jpeg"
     ]
+  },
+  {
+    "project": "WUC Phase2 WEB",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "REACT",
+      "ERRISSON LG",
+      "기존 모바일 WUC1의 기능을 기반 웹으로 파생하되, 클라이언트 요구사항에 맞추어 기획, 디자인한 프로젝트 리액트를 활용하여 웹에서도 모바일같은 경험을 사용 할 수 있게 화면 개발"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0041.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0042.jpeg"
+    ]
+  },
+  {
+    "project": "BTV CONTENTS ADMIN WEBSITE",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "SK BROADBAND",
+      "SK BTV에서 제공되는 컨텐츠들을 각 지역별로 컨텐츠들을 송출관리 하는 WEB ADMIN SITE (기존 사용하는 외산서비스를 기반으로 BTV만의 컨텐츠들을 효율적으로 관리하고 손쉽게 송출할 수 있게 UI,UX,GUI 개편 웹사이트"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0043.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0044.jpeg"
+    ]
+  },
+  {
+    "project": "CLOUD MANAGER",
+    "tags": [
+      "UI",
+      "GUI",
+      "DEV",
+      "웹사이트구축",
+      "SAMSUNG S-ONE",
+      "에스원 세콤매니저 웹사이트로 직원들의 출퇴근 및 회사의 근태관리 웹사이트 구축"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0045.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0046.jpeg"
+    ]
+  },
+  {
+    "project": "UX GUIDELINE",
+    "tags": [
+      "UI",
+      "GUI",
+      "DEV",
+      "SAMSUNG",
+      "웹 구축",
+      "삼성전자내 PPT문서를 클라우드에 업로드하여, 관리 및 편집하는 사내 전용 웹사이트"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0047.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0048.jpeg"
+    ]
+  },
+  {
+    "project": "ARCHVING WEB SYSTEM",
+    "tags": [
+      "UI",
+      "GUI",
+      "DEV",
+      "사이트 구축",
+      "SAMSUNG",
+      "삼성전자는 기존 프로젝트들을 파편화 되어 관리하였는데, 금번 프로젝트를 통해 프로젝트들을 웹으로 공통화하여 관리. 그에 따른 사내에서 사용 할 수 있는 관리웹사이트 구축"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0049.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0059.jpeg"
+    ]
+  },
+  {
+    "project": "ACCOUNT DASHBOARD WEBSITE",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "DEV",
+      "Prototype",
+      "SAMSUNG",
+      "삼성기기들을 웹사이트내에서 관리 및 커뮤니케이션 활동을 할 수 있는 컨셉사이트"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0051.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0052.jpeg"
+    ]
+  },
+  {
+    "project": "EFORMSIGN",
+    "tags": [
+      "UI",
+      "GUI",
+      "FORCS",
+      "국내1위 전자서명 솔루션 글로벌 웹/모바일"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0053.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0054.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0055.jpeg"
+    ]
+  },
+  {
+    "project": "OWiN Mobile Application",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "OWiN",
+      "운전자에게 필요한 다양한 서비스를 한 곳에서 편리하게 이용할 수 있는 모빌리티 플랫폼 앱의 UI/ GUI 작업"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0056.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0057.jpeg"
+    ]
+  },
+  {
+    "project": "CATMOS Mobile Application",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "DEV",
+      "UJURA",
+      "고양이의 활동량과 건강정보를 체크하고 관리하는 앱으로서, 전용 IoT 웨어러블 디바이스를 통해 반려묘의 상태를 확인하고 공유하는 어플리케이션"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0058.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0059.jpeg"
+    ]
+  },
+  {
+    "project": "Beyond Frame Mobile Application",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "DEV",
+      "SAMSUNG C-LAB",
+      "Vision A를 통해 스마트폰에서 촬영된 사진의 프레임 너머를 확장해 주는 솔루션 제공에 있어 사용자가 편리하게 사용할 수 있도록 모바일 UI/UX, GUl Application을 개발 진행"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0060.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0061.jpeg"
+    ]
+  },
+  {
+    "project": "MEALFREDO MOBILE APPLICATION",
+    "tags": [
+      "DEV",
+      "AOS",
+      "SERVER",
+      "SAMSUNG C-LAB",
+      "스마트 샐러드 바에 담긴 식재료 종류 및 식재료 잔량 정보 기반으로 샐러드 레시피를 추천해주는 App 개발 레시피 및 식재료 DB 저장 및 레시피 추천 처리를 위한 서버 개발"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0062.jpeg"
+    ]
+  },
+  {
+    "project": "AtSkin MOBILE APPLICATION",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "DEV",
+      "SAMSUNG C-LAB",
+      "아토피 상태를 스마트폰을 이용하여 측정/관리하는 서비스로 모바일에 하드웨어를 연동하여 사용자가 손쉽게 피부 케어 및 진단서비스를 받을 수 있는 모바일 앱"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0063.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0064.jpeg"
+    ]
+  },
+  {
+    "project": "ECOPACKAGE WEB DEVELOPMENT",
+    "tags": [
+      "DEV",
+      "HTML5",
+      "SERVER",
+      "SAMSUNG",
+      ""
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0065.jpeg"
+    ]
+  },
+  {
+    "project": "AEYE MOMENT MOBILE APPLICATION",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "DEV",
+      "SAMSUNG C-LAB",
+      "스마트폰을 통해 촬영된 영상에서 원하지 않는 객체를 선택 및 제거해 주는 서비스로 사진 편집 툴 등 사용자가 편리하게 사용할 수 있도록 모바일 U/UX디자인과 앱 개발"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0066.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0067.jpeg"
+    ]
+  },
+  {
+    "project": "GUITAR AI CODA APPLICATION'",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "DEV",
+      "SAMSUNG C-LAB",
+      "한 곡 마스터를 원하는 성인들을 위한 기타 코드 악보 앱으로서 단순하게 코드만 보여주는 것이 아닌 게임적 요소를 통해 코드를 익히고, 유튜브의 음악 중 기타 관련 코드분석을 통해서 쉬운 코드로 변환되는 기능 탑재한 모바일 어플리케이션 (Z플립)"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0068.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0069.jpeg"
+    ]
+  },
+  {
+    "project": "MEMBERS APPLICATION CONCEPT",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "MOTION",
+      "SAMSUNG",
+      "삼성 멤버스는 삼성전자 모바일 유저들에게 다양한 정보와 이벤트를 제공하고, 삼성의 고객 서비스를 위한 통로로서 고객의 적극적인 커뮤니티 활동을 지원하는 서비스 플랫폼으로서, 본 프로젝트는 사용자가 보다 적극적으로 삼성 멤버스를 이용하고 지속적으로 방문하게 할 방법은 무엇일지에 대해 고안한 선행 프로젝트"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0070.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0071.jpeg"
+    ]
+  },
+  {
+    "project": "MANGLE MOBILE, WEB",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "Branding",
+      "모드랩",
+      "다양한 캐릭터의 굿즈 상품을 커스텀 제작할 수 있는 서비스로, 쉽고 편리하게 만들 수 있다는 브랜딩부터 모바일과 웹 사이트 GUI 디자인 제작"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0072.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0073.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0074.jpeg"
+    ]
+  },
+  {
+    "project": "Tickr Mobile App",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "DEV",
+      "Tickr",
+      "아이들의 눈높이에 맞춘 창작 커뮤니티 앱으로 다양한 크리에이터의 작품을 공유하고 제작할 수 있는 글로벌 서비스 학생과 교사가 함께 클래스에서 활용할 수 있는 확장 버전까지 구축"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0075.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0076.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0077.jpeg"
+    ]
+  },
+  {
+    "project": "2021 MAISON KITSUNE EDITION THEME",
+    "tags": [
+      "GUI",
+      "MOTION",
+      "Android APK",
+      "SAMSUNG",
+      "Maison Kitsune와 삼성전자와의 콜라보 에디션으로 (Buds Phone UX / Watch UX)"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0078.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0079.jpeg"
+    ]
+  },
+  {
+    "project": "2021 GALAXY Z FLIP 3, FOLD 3 THOM BROWNE 3 EDITION",
+    "tags": [
+      "GUI",
+      "MOTION",
+      "Android APK",
+      "SAMSUNG",
+      "갤럭시 Z FLIP3, Z FOLD39 톰브라운 에디션 폰"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0080.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0081.jpeg"
+    ]
+  },
+  {
+    "project": "2020 GALAXY S20+ BTS EDITION",
+    "tags": [
+      "GUI",
+      "MOTION",
+      "Android APK",
+      "SAMSUNG",
+      "삼성전자 x빅히트와 같이 협업으로 진행한 BTS 에디션 폰으로 삼성 One UI는 유지하도 BTS 테마에 맞추어 디자인 및 개발 진행"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0082.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0083.jpeg"
+    ]
+  },
+  {
+    "project": "2020 GALAXY BUDS BTS EDITION",
+    "tags": [
+      "GUI",
+      "MOTION",
+      "Android APK",
+      "SAMSUNG",
+      "삼성전자 x 빅히트와 같이 협업으로 진행한 BTS 에디션 폰으로 삼성 One U는 유지하되 BTS 테마에 맞추어 디자인 및 개"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0084.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0085.jpeg"
+    ]
+  },
+  {
+    "project": "2020 OLYMPIC EDITION THEME",
+    "tags": [
+      "GUI",
+      "SOUND",
+      "Android APK",
+      "SAMSUNG",
+      "갤럭시 올림픽 에디션 테마폰 디자인 (2020 올림픽전용)"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0086.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0087.jpeg"
+    ]
+  },
+  {
+    "project": "NARLE APPLICATION",
+    "tags": [
+      "UI",
+      "GUI",
+      "KT 5G SERVICE",
+      "KT 5G서비스앱으로, 다자간통화, AR마스크, 아바타, 유튜브, 게임등 유저들간의 실시간 소통 어플리케이션 기존 1차앱을 올리브스톤에서 전체 UI/GUI 리뉴얼진행 하면서 점진적으로 서비스안정화 디자인 진행중인 프로젝트"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0088.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0089.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0090.jpeg"
+    ]
+  },
+  {
+    "project": "HOMEDATA VISUALIIZAITON",
+    "tags": [
+      "UI",
+      "UX",
+      "GUI",
+      "SAMSUNG",
+      "데이터들을 시각화 하는 프로젝트로 삼성 디자이너들이 해당작업물을 기반으로 향후 데이터 시각화 프로젝트 진행시, 참고할 수 있는 ONE UI 레퍼런스 모바일 디자인 진행"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0091.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0092.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0093.jpeg"
+    ]
+  },
+  {
+    "project": "INSDER APPLICATION",
+    "tags": [
+      "UI",
+      "GUI",
+      "AND",
+      "DEV",
+      "SAMSUNG C-LAB",
+      "삼성 C-LAB과 함께 진행한 신조어 번역 어플리케이션"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0094.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0095.jpeg"
+    ]
+  },
+  {
+    "project": "EARCOMFORT",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "DEV",
+      "MOVIE",
+      "SAMSUNG",
+      "EarComfort H/W와 Bluetooth 통신하여\n모니터링 및 귀를 측정하는 모바일 어플리케이션 개발\n"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0096.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0097.jpeg"
+    ]
+  },
+  {
+    "project": "MAKERS APP",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "DEV(구축)",
+      "LOTTE MART",
+      "작가들의 작품을 티셔츠, 가방, 핸드폰 케이스등에 그려넣어 제품 구매 및 공유 서비스 플랫폼"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0098.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0099.jpeg"
+    ]
+  },
+  {
+    "project": "HOME Appliance AR App",
+    "tags": [
+      "GUI",
+      "MOTION",
+      "SAMSUNG",
+      "소비자에게 AR 서비스를 통해 서비스 경험을 간접 제공하여 구매를 유도하고, AR 메뉴얼을 통해 설치 및 사용가이드 제공"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0100.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0101.jpeg"
+    ]
+  },
+  {
+    "project": "WHON",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "BI",
+      "MOTION",
+      "SAMSUNG",
+      "모임 후 복잡한 정산을 해결하는 앱으로서 모임을 개설, 회비 및 더치페이등 송금결제 및 관리를 유용하게 하는 앱"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0102.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0103.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0104.jpeg"
+    ]
+  },
+  {
+    "project": "BUSAN SUMBANK",
+    "tags": [
+      "UI",
+      "GUI",
+      "BI",
+      "국내 지방은행 1위 부산은행의 MOBILE APP RENEWAL"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0105.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0106.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0107.jpeg"
+    ]
+  },
+  {
+    "project": "BIXBY",
+    "tags": [
+      "GUI",
+      "MOTION",
+      "SAMSUNG",
+      "SAMSUNG의 새로운 음성인식으로, 처음 모바일 설정하는 화면을 음성 및 다채로운 모션을 제공하여 기능을 감성적으로 표현"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0108.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0109.jpeg"
+    ]
+  },
+  {
+    "project": "NEXT MESSAGING SERVICE",
+    "tags": [
+      "UI",
+      "GUI",
+      "SAMSUNG",
+      "다양한 모션 및 기능이 추가된 차세대 메시지 어플리케이션 디자인"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0110.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0111.jpeg"
+    ]
+  },
+  {
+    "project": "HEALTHBAND",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "MOTION",
+      "DEV",
+      "환자의 상태를 실시간 으로 모바일로 확인하여, 확인하여 위급상황을 미연에 방지하는 밴드"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0112.jpeg"
+    ]
+  },
+  {
+    "project": "SAMSUNG GALAXY S6 S-HEALTH 3.5",
+    "tags": [
+      "GUI",
+      "SAMSUNG"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0113.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0114.jpeg"
+    ]
+  },
+  {
+    "project": "SKT HEALTH ON",
+    "tags": [
+      "GUI",
+      "DEV",
+      "SK와 서울대학교가 함께 진행하는 B2C 건강 어플로, GUI 디자인 & 개발"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0115.jpeg"
+    ]
+  },
+  {
+    "project": "FUTURE VISION 2030",
+    "tags": [
+      "UI",
+      "UX",
+      "GUI",
+      "SAMSUNG",
+      "2020년 전략보고 프로젝트로 2030년의 미래를 삼성이 어떻게 생각하고 있는지 그리고, 추후 어떤 경험들이 생활패턴에 변경 적용되는지를 사용 환경에 근거하여 진행"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0117.jpeg"
+    ]
+  },
+  {
+    "project": "HYUNDAI Construction Equipment",
+    "tags": [
+      "HYUNDAI",
+      "Hyundai Intelligence",
+      "Hi CARE",
+      "Fleet Management",
+      "MOTION",
+      "미국 CONEXPO 기능 홍보영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0118.jpeg"
+    ]
+  },
+  {
+    "project": "SAMSUNG Galaxy Nextbook",
+    "tags": [
+      "SAMSUNG",
+      "MOTION",
+      "삼성 전략보고용 갤럭시북 컨셉영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0119.jpeg"
+    ]
+  },
+  {
+    "project": "SAMSUNG NEXT WATCH",
+    "tags": [
+      "SAMSUNG",
+      "MOTION",
+      "2020년 선행 기어워치 기능영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0120.jpeg"
+    ]
+  },
+  {
+    "project": "SAMSUNG NEXT AR",
+    "tags": [
+      "GUI",
+      "MOTION",
+      "갤럭시 모바일의 차세대 비전영상으로 총 3가지 제품 컨셉 영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0121.jpeg"
+    ]
+  },
+  {
+    "project": "GALAXY NEXT EXPAND",
+    "tags": [
+      "MOTION"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0122.jpeg"
+    ]
+  },
+  {
+    "project": "GALAXY NEXT DISCOVER",
+    "tags": [
+      "MOTION"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0123.jpeg"
+    ]
+  },
+  {
+    "project": "SOCIAL ROBOT LiTo",
+    "tags": [
+      "SAMSUNG",
+      "MOTION",
+      "소셜로봇 리토가 탄생된 배경 및 지구에 오기전의 시놉시스 영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0124.jpeg"
+    ]
+  },
+  {
+    "project": "HUAWEI MEDIA OS",
+    "tags": [
+      "HUAWEI",
+      "MOTION",
+      "MEDIA OS의 B2B 판매를 위한 기능설명 홍보영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0125.jpeg"
+    ]
+  },
+  {
+    "project": "TCL TV CES MOVIE",
+    "tags": [
+      "MOTION",
+      "중국 TCL TV OS 홍보영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0126.jpeg"
+    ]
+  },
+  {
+    "project": "WIRELESS AUDIO",
+    "tags": [
+      "MOTION",
+      "SAMSUNG VD 360VIDEO 의 홍보영상으로 360의 프리미엄을 강조한 홍보영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0127.jpeg"
+    ]
+  },
+  {
+    "project": "AIR PURIFIER",
+    "tags": [
+      "MOTION",
+      "SAMSUNG AIR PURIFIER AX7500 제품소개 영상 및 홍보영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0128.jpeg"
+    ]
+  },
+  {
+    "project": "SAMSUNG 리모컨 혁신 TF",
+    "tags": [
+      "SAMSUNG",
+      "MOTION",
+      "리모컨 TF 보고 영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0129.jpeg"
+    ]
+  },
+  {
+    "project": "OWiN Mobile Application",
+    "tags": [
+      "UI",
+      "UX",
+      "GUI",
+      "OWiN",
+      "운전자에게 필요한 다양한 서비스를 한 곳에서 편리하게 이용할 수 있는 모빌리티 플랫폼 앱의 UI / GUI 작업"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0130.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0131.jpeg"
+    ]
+  },
+  {
+    "project": "CATMOS Mobile Application",
+    "tags": [
+      "UI",
+      "UX",
+      "GUI",
+      "DEV",
+      "UJURA",
+      "고양이의 활동량과 건강정보를 체크하고 관리하는 앱으로서, 전용 IoT 웨어러블 디바이스를 통해 반려묘의 상태를 확인하고 공유하는 어플리케이션"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0132.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0133.jpeg"
+    ]
+  },
+  {
+    "project": "Tickr Mobile App",
+    "tags": [
+      "UI",
+      "UX",
+      "GUI",
+      "DEV",
+      "Tickr",
+      "아이들의 눈높이에 맞춘 창작 커뮤니티 앱으로 다양한 크리에이터의 작품을 공유하고 제작할 수 있는 글로벌 서비스 학생과 교사가 함께 클래스에서 활용할 수 있는 확장 버전까지 구축"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0134.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0135.jpeg"
+    ]
+  },
+  {
+    "project": "MANGLE MOBILE, WEB",
+    "tags": [
+      "UI",
+      "UX",
+      "GUI",
+      "Branding",
+      "모드랩",
+      "다양한 캐릭터의 굿즈 상품을 커스텀 제작할 수 있는 서비스로, 쉽고 편리하게 만들 수 있다는 브랜딩부터 모바일과 웹 사이트 GUI 디자인 제작"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0136.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0137.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0138.jpeg"
+    ]
+  },
+  {
+    "project": "BEAUTY MIRROR DESIGN",
+    "tags": [
+      "GUI",
+      "MOTION",
+      "Android APK",
+      "SAMSUNG",
+      "미래형 뷰티 거울로서 내 현재상태를 직관적으로 알 수 있고 셀프 케어, 케어 전 후 결과, 그리고 공간과 어우러지는 감각적 시각요소들을 활용하여 디바이스와 인테리어의 조화를 고려하여 디자인 진행"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0139.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0140.jpeg"
+    ]
+  },
+  {
+    "project": "COFFEE MACHINE",
+    "tags": [
+      "Samsung",
+      "삼성",
+      "GUI",
+      "VI",
+      "커피머신",
+      "삼성전자와 독일의 커피머신 업체와 콜라보를 통해 개발 중인 커피머신 기기로 개인의 커피취향에 최적화되는 커피추출 기능에 맞추어 GUI 디자인 및 VI 제공"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0141.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0142.jpeg"
+    ]
+  },
+  {
+    "project": "SOCIAL ROBOT LiTo",
+    "tags": [
+      "Samsung",
+      "삼성",
+      "UX",
+      "UI",
+      "GUI",
+      "VI",
+      "SOUND",
+      "ANIMATION",
+      "인공지능 로봇",
+      "AI",
+      "ROBOT",
+      "LiTo는 삼성전자에서 개발 중인 일상을 기록하는 기능을 가진 인공지능 로봇. 주요 기능으로는 동영상과 사진을 찍어 기록을 하는 것과, 부모가 아이를 돌보지 못하는 상황에서 아이를 보호하는 기능을 탑재."
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0143.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0144.jpeg"
+    ]
+  },
+  {
+    "project": "WAVVE TV APPLICATION",
+    "tags": [
+      "WAVVE",
+      "웨이브",
+      "UI",
+      "UX",
+      "GUI",
+      "DEV",
+      "TV",
+      "MOBILE",
+      "모바일",
+      "AOS",
+      "iOS",
+      "MOTION",
+      "Multi-Device",
+      "WAVVE의 TV용 어플리케이션 제작",
+      "모바일, PC에서 사용하는 General rule을 따르되 TV 환경에 맞추어 UI/UX 디자인 변경하여 진행"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0145.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0146.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0147.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0148.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0149.jpeg"
+    ]
+  },
+  {
+    "project": "THE WALL 연간 디자인 유지보수",
+    "tags": [
+      "Samsung",
+      "삼성",
+      "UX",
+      "GUI",
+      "TV",
+      "태블릿",
+      "MOBILE",
+      "모바일",
+      "Multi-Device",
+      "홈시네마",
+      "THE WALL",
+      "벽면 디스프레이",
+      "집안의 벽면 디스플레이 프로젝트로 벽에 TV를 거는 것이 아닌 전체벽면이 디스플레이가 되는 홈시네마 프로젝터입니다.",
+      "모바일/태블릿/TV를 통해 THE WALL을 설정 및 관리"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0150.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0151.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0152.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0153.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0154.jpeg"
+    ]
+  },
+  {
+    "project": "선행 VOD서비스 연구",
+    "tags": [
+      "SK BROADBAND",
+      "SK 브로드밴드",
+      "UX",
+      "UI",
+      "GUI",
+      "출연인물정보",
+      "배경음악정보",
+      "장면",
+      "매칭",
+      "검색",
+      "연구",
+      "선행",
+      "재생중 영상에 나오는 출연인물정보를 장면과 매칭하는 연구와 배경음악정보와 장면과 매칭해 검색이 가능하게 하는 UI/GUI 서비스 연구"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0155.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0156.jpeg"
+    ]
+  },
+  {
+    "project": "FAMILY HUB 4.0 Design Maintenence",
+    "tags": [
+      "Samsung",
+      "삼성",
+      "UI",
+      "UX",
+      "GUI",
+      "DEV",
+      "VI",
+      "Family Hub",
+      "냉장고",
+      "loT",
+      "모바일",
+      "MOBILE",
+      "개발 가이드라인",
+      "선행",
+      "Family Hub 상품화를 위한 냉장고 및 모바일 앱 업데이트 UI를 반영하여 GUI, VI 제작 및 개발 가이드라인 진행"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0157.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0158.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0159.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0160.jpeg"
+    ]
+  },
+  {
+    "project": "FAMILY HUB 4.0 Design Maintenence",
+    "tags": [
+      "Samsung",
+      "삼성",
+      "UI",
+      "UX",
+      "GUI",
+      "1Year Follow",
+      "DEV",
+      "VI",
+      "Family Hub",
+      "냉장고",
+      "loT",
+      "모바일",
+      "MOBILE",
+      "MOTION",
+      "개발 가이드라인",
+      "선행",
+      "냉장고를 통해 다양한 loT 제품들을 제어, 일정관리 및 파트너쉽 제휴 등 수많은 관계성을 UX로 개선"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0161.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0162.jpeg"
+    ]
+  },
+  {
+    "project": "SK MAGIC PREMIUM INDOUCTION",
+    "tags": [
+      "SK MAGIC",
+      "SK 매직",
+      "UI",
+      "UX",
+      "GUI",
+      "VI",
+      "MOTION",
+      "인덕션",
+      "2020",
+      "연말 타겟",
+      "2020년 연말 타겟인 SK 매직 프리미엄 인덕션으로 고급 아파트에 빌트인 되는 가전의 최고급 인덕션으로 UI, UX 및 VI 진행"
+    ],
+    "imgs": ["assets/imgs/olivestonelab_portfolio_211224_0163.jpeg"]
+  },
+  {
+    "project": "UNIVERSAL UX",
+    "tags": [
+      "Samsung",
+      "삼성",
+      "UX",
+      "GUI",
+      "DEV",
+      "TV",
+      "배리어프리",
+      "barrier free",
+      "universal",
+      "장애의 유무나 연령 등에 관계없이 모든 사람들이 TV 서비스를 보다 편하고 안전하게 이용할 수 있도록 디자인, 개발 진행한 프로젝트"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0164.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0165.jpeg"
+    ]
+  },
+  {
+    "project": "TCL TV FFUI",
+    "tags": [
+      "TCL",
+      "FFALCON",
+      "UI",
+      "GUI",
+      "TV",
+      "2017",
+      "중국",
+      "2017 중국 발표",
+      "TCL의 새로운 제품라인 FFALCON 고급형 TV에 들어가는 UI/GUI"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0166.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0167.jpeg"
+    ]
+  },
+  {
+    "project": "PREMIUM CLUSTER",
+    "tags": [
+      "Hyundai Construction Equipment",
+      "현대건설기계",
+      "중장비",
+      "클러스터",
+      "고급화",
+      "사용성",
+      "브랜드 아이덴티티",
+      "UI",
+      "UX",
+      "GUI",
+      "3D",
+      "DEV",
+      "현대건설기계 중장비 차량에 들어가는 클러스터로 기존 저가형 클러스터에서 고가형으로 체인지 되면서 고급화, 현대건설기계 스러움, 사용성을 초점으로 진행"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0168.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0169.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0170.jpeg"
+    ]
+  },
+  {
+    "project": "RSE MOBILE APPLICATION",
+    "tags": [
+      "HYUNDAI MOTORS",
+      "현대모터스",
+      "태블릿",
+      "모바일",
+      "MOBILE",
+      "차량전용 컨텐츠",
+      "전용 네비",
+      "차량설정",
+      "UI",
+      "UX",
+      "GUI",
+      "MOTION",
+      "DEV",
+      "고급 차량에만 제공되는 후석 거치형 태블릿의 기능을, 일반 패드에서도 사용할 수 있게 제공하는 앱으로서, 모바일 사용성과 동일한 환경을 제공하며, 차량전용 컨텐츠 / 전용 네비 / 차량설정 등을 제공한다."
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0171.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0172.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0173.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0174.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0175.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0176.jpeg"
+    ]
+  },
+  {
+    "project": "M.BRAIN APPLICATION",
+    "tags": [
+      "HYUNDAI MOTORS",
+      "현대모터스",
+      "뇌파",
+      "데이터",
+      "운전자",
+      "UI",
+      "UX",
+      "GUI",
+      "DEV",
+      "MOBILE",
+      "모바일",
+      "선행",
+      "공동연구개발",
+      "현대모비스와 선행으로 공동연구개발한 어플리케이션으로, 운전시 운전자의 뇌파의 데이터값을 받아 앱으로 운전자의 현상태를 파악하고 그에 따른 안내를 제공하는 어플리케이션"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0177.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0178.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0179.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0180.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0181.jpeg"
+    ]
+  },
+  {
+    "project": "e-Tactiles",
+    "tags": [
+      "Samsung",
+      "삼성",
+      "터치필름",
+      "촉감",
+      "UI",
+      "GUI",
+      "DEV",
+      "MOVIE",
+      "기존 터치식의 방법에서, 촉감을 전달하는 터치스크린",
+      "사용자는 운전중에 스크린을 안봐도, 터치감을 통해 버튼과 비버튼을 구분하는 터치필름 프로젝트"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0182.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0183.jpeg"
+    ]
+  },
+  {
+    "project": "IVI PLATFORM",
+    "tags": [
+      "HYUNDAI MOBIS",
+      "현대 모비스",
+      "IVI 통합 플랫폼",
+      "Cluster",
+      "클러스터",
+      "AVN",
+      "HUD",
+      "GUI",
+      "MOTION",
+      "Cluster, AVN, HUD",
+      "2019",
+      "CES",
+      "2019 CES 출품",
+      "차량용 Infotainment 시장진입을 위해 개발한 IVI 통합 PLATFORM"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0184.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0185.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0186.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0187.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0188.jpeg"
+    ]
+  },
+  {
+    "project": "HYUNDAI MOTORS",
+    "tags": [
+      "HYUNDAI MOTORS",
+      "현대모터스",
+      "Cluster",
+      "클러스터",
+      "UX",
+      "UI",
+      "GUI",
+      "MOTION",
+      "CLUSTER의 2세대 디자인",
+      "전세계에 들어가는 현대자동차의 표준디자인"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0189.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0190.jpeg"
+    ]
+  },
+  {
+    "project": "GENERAL MOTORS",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "CAR",
+      "미국 GM회사의 선행 프로젝트로 모바일과 연동된 CLUSTER선행 디자인"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0191.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0192.jpeg"
+    ]
+  },
+  {
+    "project": "HYUNDAI",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "CAR",
+      "COCKPIT CLUSTER FUTURE DESIGN 12.3INCH PREMIUM MODEL"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0193.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0194.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0195.jpeg"
+    ]
+  },
+  {
+    "project": "HYUNDAI MNSOFT",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "CAR",
+      "12.3INCH DUAL CLUSTER FUTURE DESIGN"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0196.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0197.jpeg"
+    ]
+  },
+  {
+    "project": "VISION ARRAY SYSTEM",
+    "tags": [
+      "GUI",
+      "SAMSUNG",
+      "CAR",
+      "삼성 AUTOMOTIVE 프로젝트로, 양산기준에 근접한 선행프로젝트"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0198.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0199.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0200.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0201.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0202.jpeg"
+    ]
+  },
+  {
+    "project": "GEAR S2",
+    "tags": [
+      "GUI",
+      "WEARABLE",
+      "삼성 WEARABLE WATCH Circle Display를 고려하여 Gear S2 전반적인 GUI 개발 진행"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0203.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0204.jpeg"
+    ]
+  },
+  {
+    "project": "SAMSUNG GEAR S1",
+    "tags": [
+      "GUI",
+      "WEARABLE",
+      "Curved Display를 고려한 디자인 컨셉을 제안하고, Gear S의 전반적인 GUI 진행"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0205.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0206.jpeg"
+    ]
+  },
+  {
+    "project": "DRON CONTROLLER",
+    "tags": [
+      "콘트롤러 제품디자인",
+      "컨트롤러 개발",
+      "UI",
+      "UX",
+      "GUI",
+      "하드웨어 개발",
+      "소프트웨어 개발",
+      "WEARABLE",
+      "삼성의 기어S2와 드론의 콜라보레이션 제품으로 컨트롤러에 기어S2를 결합하여 드론을 조종하는 프로젝트"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0207.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0208.jpeg"
+    ]
+  },
+  {
+    "project": "IBK SMART VTM",
+    "tags": [
+      "UI",
+      "GUI",
+      "IBK",
+      "Industrial Bank of Korea",
+      "KIOSK",
+      "디지털 키오스크의 화상상담,통장신규,카드발급,인터넷뱅킹등 고객이 은행에서 기다리는 시간과 대면을 통한 업무시간을 줄여 고객이 직접 원하는 서비스를 마칠 수 있게 구현"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0209.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0210.jpeg"
+    ]
+  },
+  {
+    "project": "PAYMENT POS MACHINE",
+    "tags": [
+      "UX",
+      "UI",
+      "GUI",
+      "THE HYUNDAI",
+      "KIOSK",
+      "백화점내 직원들이 현금 입금 및 출금을 자유롭게 할 수 있는 기기로, 기존 사람이 했던 일을 POS기기가 대체하여 업무효율을 높임."
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0211.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0212.jpeg"
+    ]
+  },
+  {
+    "project": "SMART ATM",
+    "tags": [
+      "UI",
+      "GUI",
+      "Motion",
+      "부산은행",
+      "KIOSK",
+      "스마트 ATM은 기존 은행 창구 직원이 하던 업무를 이용자가 직접 처리하게 지원하는 금융기기 프로젝트"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0213.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0214.jpeg"
+    ]
+  },
+  {
+    "project": "HYUNDAI Construction Equipment",
+    "tags": [
+      "HYUNDAI",
+      "Hyundai Intelligence",
+      "Hi CARE",
+      "Fleet Management",
+      "MOTION",
+      "미국 CONEXPO 기능 홍보영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0215.jpeg"
+    ]
+  },
+  {
+    "project": "SAMSUNG Galaxy Nextbook",
+    "tags": [
+      "SAMSUNG",
+      "MOTION",
+      "삼성 전략보고용 갤럭시북 컨셉영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0216.jpeg"
+    ]
+  },
+  {
+    "project": "SAMSUNG NEXT WATCH",
+    "tags": [
+      "SAMSUNG",
+      "MOTION",
+      "2020년 선행 기어워치 기능영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0217.jpeg"
+    ]
+  },
+  {
+    "project": "GALAXY NEXT AR",
+    "tags": [
+      "GUI",
+      "MOTION",
+      "갤럭시 모바일의 차세대 비전영상으로 총 3가지 제품 컨셉 영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0218.jpeg"
+    ]
+  },
+  {
+    "project": "GALAXY NEXT EXPAND",
+    "tags": [
+      "MOTION"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0219.jpeg"
+    ]
+  },
+  {
+    "project": "GALAXY NEXT DISCOVER",
+    "tags": [
+      "MOTION"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0220.jpeg"
+    ]
+  },
+  {
+    "project": "SOCIAL ROBOT LiTo",
+    "tags": [
+      "MOTION",
+      "소셜로봇 리토가 탄생된 배경 및 지구에 오기전의 시놉시스 영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0221.jpeg"
+    ]
+  },
+  {
+    "project": "HUAWEI MEDIA OS",
+    "tags": [
+      "MOTION",
+      "MEDIA OS의 B2B 판매를 위한 기능설명 홍보영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0222.jpeg"
+    ]
+  },
+  {
+    "project": "TCL TV CES MOVIE",
+    "tags": [
+      "MOTION",
+      "중국 TCL TV OS 홍보영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0223.jpeg"
+    ]
+  },
+  {
+    "project": "WIRELESS AUDIO",
+    "tags": [
+      "MOTION",
+      "SAMSUNG VD 360VIDEO 의 홍보영상으로 360의 프리미엄을 강조한 홍보영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0224.jpeg"
+    ]
+  },
+  {
+    "project": "AIR PURIFIER",
+    "tags": [
+      "MOTION",
+      "SAMSUNG AIR PURIFIER AX7500 제품소개 영상 및 홍보영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0225.jpeg"
+    ]
+  },
+  {
+    "project": "SAMSUNG 리모컨 혁신 TF",
+    "tags": [
+      "SAMSUNG",
+      "MOTION",
+      "리모컨 TF 보고 영상"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0226.jpeg"
+    ]
+  },
+  {
+    "project": "에스원 신관제 센터",
+    "tags": [
+      "UI",
+      "GUI",
+      "SAMSUNG",
+      "SYSTEM",
+      "에스원의 핵심인 관제센터의 PC APP이며, 관제사들이 전국에 사건개요 등을 파악하고 출동 요원들에게 지시를 주는 보안솔루션"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0227.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0228.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0229.jpeg"
+    ]
+  },
+  {
+    "project": "POD ICON SYSTEM",
+    "tags": [
+      "GUI",
+      "MOCKUP SAMPLE",
+      "SAMSUNG",
+      "SYSTEM",
+      "삼성 국내외에 사용되는 마케팅 ICON을 일관성 있게 표현하되 기존 Identity look은 유지"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0230.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0231.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0232.jpeg"
+    ]
+  },
+  {
+    "project": "잘살아볼 연구소",
+    "tags": [
+      "Data Analytics",
+      "Data Visualization",
+      "SYSTEM",
+      "주거에 대한 흩어진 공공 데이터를 모으고 숨은 메시지를 찾아 좀더 잘 살수 있는 방법을 고민합니다.",
+      "다양한 주제에 대한 경계를 허물고 다가가 우리 삶의 새로운 가능성을 발견하고, 누구나 쉽게 읽고 기억에 남을 수 있는 공공 데이터 스토리를 전달합니다."
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0234.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0235.jpeg"
+    ]
+  },
+  {
+    "project": "TIGER LILY SUNDAY PROJECT",
+    "tags": [
+      "SYSTEM",
+      "TIGER LILY SUNDAY PROJECT는 디자이너들의 가방에 대한 고민에서 시작되었습니다.",
+      "하루의 시작을 위해 각 종 IT기기들을 챙겨야 하는 과정에서 어떻게 하면 좀 더 편리하고, 가볍게 들 수 있는 가방의 모습을 고민하였고 엣지있게 나만의 스타일을 완성시켜줄 수 있는 가방의 모습으로 디자인되었습니다",
+      "일하는 스페셜리스트들이라면 그들만의 각자 도구들을 챙겨 하루를 시작합니다",
+      "가방을 꾸리면서 도구들을 담는 과정부터 하루의 일과 중에서 수납된 도구들을 꺼내고 담는 과정에서 가볍고 아름다운 가방, 매일 들기 좋은 가방을 통해 그들의 하루를 응원하는 마음을 전하고자 합니다",
+      "우리의 일상 속에서 시대적 감성을 제공하는 것이 라이프스타일 패션 브랜드 TIGER LILY SUNDAY PROJECT가 추구하는 철학입니다."
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0236.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0237.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0238.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0239.jpeg"
+    ]
+  },
+  {
+    "project": "mooda",
+    "tags": [
+      "IPHONE",
+      "ANDROID",
+      "UI",
+      "GUI",
+      "DEV",
+      "SYSTEM",
+      "그날그날의 감정을 일기장 쓰듯이 기록하는 어플리케이션"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0240.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0241.jpeg"
+    ]
+  },
+  {
+    "project": "ZAPAN",
+    "tags": [
+      "IPHONE",
+      "UI",
+      "GUI",
+      "DEV",
+      "SYSTEM",
+      "언제, 어디서든 입맛대로 카메라를 뽑아 그날의 추억을 기록하는 카메라 앱"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0242.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0243.jpeg"
+    ]
+  },
+  {
+    "project": "Dkon",
+    "tags": [
+      "IPHONE",
+      "UI",
+      "GUI",
+      "DEV",
+      "SYSTEM",
+      "사진을 찍고 버리는 용도가 아닌 한장한장 찍을때 소중함을 느끼게 하기 위한 필름 컨셉의 카메라앱"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0244.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0245.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0246.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0247.jpeg"
+    ]
+  },
+  {
+    "project": "OLIVELAMP",
+    "tags": [
+      "기획",
+      "제품디자인",
+      "하드웨어개발",
+      "모바일디자인",
+      "개발",
+      "프로토타입 개발",
+      "SYSTEM",
+      "자체캐릭터를 가지고, 캐릭터램프 개발 모바일과 연동하여 영,유아를 타깃으로 만든 스마트램프"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0248.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0249.jpeg"
+    ]
+  },
+  {
+    "project": "PATHPORT",
+    "tags": [
+      "SYSTEM",
+      "한국의 관광명소인 제주도를 사용자에게 여행경로 추천 을 해주는 앱으로서 자체 DB를 통하여 사용자에게 최적화된 정보를 제공해준다."
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0250.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0251.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0252.jpeg"
+    ]
+  },
+  {
+    "project": "OLANEWS",
+    "tags": [
+      "SYSTEM",
+      "뉴스의 긴 문장을 자체 개발한 ALGORITHM 통하여, 장문의 뉴스를 3~5줄로 줄여 빨리 읽을 수 있게 하는 뉴스 서비스"
+    ],
+    "imgs": [
+      "assets/imgs/olivestonelab_portfolio_211224_0253.jpeg",
+      "assets/imgs/olivestonelab_portfolio_211224_0254.jpeg"
+    ]
   }
 ]

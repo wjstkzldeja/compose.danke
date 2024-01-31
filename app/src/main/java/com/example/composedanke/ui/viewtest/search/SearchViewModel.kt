@@ -2,6 +2,7 @@ package com.example.composedanke.ui.viewtest.search
 
 import android.graphics.Bitmap
 import androidx.compose.runtime.State
+import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.toMutableStateList
 import androidx.compose.ui.graphics.ImageBitmap
@@ -29,6 +30,9 @@ class SearchViewModel : ViewModel() {
     private val _mutableStateListTest = arrayListOf<ProjectVoItem>().toMutableStateList()
     val mutableStateListTest: List<ProjectVoItem> get() = _mutableStateListTest
 
+    var mutableStateListTest2 = mutableStateListOf<ProjectVoItem>()
+        private set
+
 //    private val _searchList = arrayListOf("1", "2", "3", "4").toMutableStateList()
 //    val searchList: List<String> get() = _searchList
 
@@ -36,9 +40,11 @@ class SearchViewModel : ViewModel() {
 //    val imageList: List<String> get() = _imageList
 
     fun initProjectList(projectList: ProjectVo) {
-        _mutableStateListTest.addAll(projectList)
-        _projectList.value = projectList
-        _projectListOrigin.value = projectList
+        if (_projectList.value.isEmpty()) {
+            _mutableStateListTest.addAll(projectList)
+            _projectList.value = projectList
+            _projectListOrigin.value = projectList
+        }
     }
 
     @JvmName("setText1")
@@ -79,19 +85,19 @@ class SearchViewModel : ViewModel() {
 
     /** image size 비트맵으로 변환
      * 비율은 좀더 계산이 필요*/
-     fun calculateInSampleSize(imageBitmap: ImageBitmap): Bitmap {
-         d("logTestBitmap : ${imageBitmap.width}")
-         d("logTestBitmap : ${imageBitmap.height}")
-         val width = (imageBitmap.width * 0.4).toInt()
-         val height = (imageBitmap.height * 0.4).toInt()
+    fun calculateInSampleSize(imageBitmap: ImageBitmap): Bitmap {
+        d("logTestBitmap : ${imageBitmap.width}")
+        d("logTestBitmap : ${imageBitmap.height}")
+        val width = (imageBitmap.width * 0.4).toInt()
+        val height = (imageBitmap.height * 0.4).toInt()
 //         val resizedBitmap = Bitmap.createScaledBitmap(
 //             imageBitmap.asAndroidBitmap() , imageBitmap.height/4, imageBitmap.height/4, true
 //         ).asImageBitmap()
 
-         val resizedBitmap = Bitmap.createScaledBitmap(
-             imageBitmap.asAndroidBitmap() , width, height, true
-         )
-         return resizedBitmap
+        val resizedBitmap = Bitmap.createScaledBitmap(
+            imageBitmap.asAndroidBitmap(), width, height, true
+        )
+        return resizedBitmap
     }
 
     fun calculateInSampleSizeImageList(imageBitmap: ImageBitmap): Bitmap {
@@ -104,8 +110,18 @@ class SearchViewModel : ViewModel() {
 //         ).asImageBitmap()
 
         val resizedBitmap = Bitmap.createScaledBitmap(
-            imageBitmap.asAndroidBitmap() , width, height, false
+            imageBitmap.asAndroidBitmap(), width, height, false
         )
         return resizedBitmap
+    }
+
+    // event: addItem
+    fun addItem(item: ProjectVoItem) {
+        mutableStateListTest2.add(item)
+    }
+
+    // event: removeItem
+    fun removeItem(item: ProjectVoItem) {
+        mutableStateListTest2.remove(item)
     }
 }

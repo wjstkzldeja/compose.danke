@@ -107,7 +107,7 @@ internal fun JoinScreen(
 @Composable
 fun JoinViewPager() {
     val pagerState = rememberPagerState(
-        initialPage = 2,
+        initialPage = 0,
         initialPageOffsetFraction = 0f
     ) {
         6
